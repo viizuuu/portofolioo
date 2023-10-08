@@ -1,0 +1,32 @@
+html {
+    background-color:dimgray;
+    font-family: arial;
+}
+
+header {
+    height: auto;
+    width: auto;
+    background-color: gold;
+    border: black, 5px;
+}
+
+header h1 {
+
+}
+
+header table {
+    position: center;
+}
+
+.content {
+    height: auto;
+    width: auto;
+    background-color: darkgray;
+
+}
+
+.content {
+    border: 1px;
+    fill: white;
+    border-width: 5cm;
+}
