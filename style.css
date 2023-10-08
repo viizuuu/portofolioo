@@ -1,32 +1,59 @@
-html {
-    background-color:dimgray;
-    font-family: arial;
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
-header {
-    height: auto;
-    width: auto;
-    background-color: gold;
-    border: black, 5px;
+body {
+    padding: 20px;
 }
 
-header h1 {
-
+.photo {
+    background-color: lightgoldenrodyellow;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
 }
 
-header table {
-    position: center;
+h2 {
+    background-color: rgb(218, 215, 196);
+    border-radius: 10px;
 }
 
-.content {
-    height: auto;
-    width: auto;
-    background-color: darkgray;
-
+p {
+    background-color: khaki;
+    padding: 10px;
+    border-radius: 20px;
 }
 
-.content {
-    border: 1px;
-    fill: white;
-    border-width: 5cm;
+.table {
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a::before {
+    content: "  ";
+}
+
+a::after {
+    content: "  ";
+}
+
+a:hover {
+    color: black;
+    font-size: 20px;
+    transition-duration: 0.1s;
+}
+
+footer {
+    background-color: khaki;
+    padding: 10px;
+    border-radius: 20px;
 }
